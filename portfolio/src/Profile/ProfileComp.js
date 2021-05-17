@@ -72,7 +72,7 @@ ProfileComp.propTypes = {
   bio: propTypes.string,
   profession: propTypes.string,
   onHandleName: propTypes.func,
-  children: propTypes.any,
+  children: propTypes.element
 };
 
 export default ProfileComp;
